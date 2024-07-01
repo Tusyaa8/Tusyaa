@@ -1,0 +1,16 @@
+ import java.util.*;
+class gree
+{
+    public static void main()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER A NUMBER");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        if(a<b && a<c)
+        {
+          System.out.println("THIS NUMBER IS GREATER "+a);  
+        }
+    }
+}

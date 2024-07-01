@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Check
+comment1.params=a\ b\ ch
+comment1.target=void\ check_sum(int,\ int,\ char)
+comment2.params=a\ b\ n
+comment2.target=void\ check_sum(char,\ char,\ int)
+comment3.params=a\ b\ c\ ch
+comment3.target=void\ check_sum(int,\ int,\ int,\ char)
+comment4.params=
+comment4.target=void\ main()
+numComments=5
