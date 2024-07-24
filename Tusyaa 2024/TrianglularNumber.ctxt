@@ -2,4 +2,6 @@
 comment0.target=TrianglularNumber
 comment1.params=
 comment1.target=void\ main()
-numComments=2
+comment2.params=n
+comment2.target=void\ triangularNumber(int)
+numComments=3

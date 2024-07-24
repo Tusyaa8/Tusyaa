@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=LychrelNumber
+comment1.params=
+comment1.target=LychrelNumber()
+comment2.params=n
+comment2.target=boolean\ isLychrel(long)
+comment3.params=
+comment3.target=void\ input()
+comment4.params=
+comment4.target=void\ generateLychrelNumber()
+comment5.params=
+comment5.target=void\ main()
+comment6.params=n
+comment6.target=long\ reverse(long)
+comment7.params=n\ m
+comment7.target=long\ add(long,\ long)
+numComments=8

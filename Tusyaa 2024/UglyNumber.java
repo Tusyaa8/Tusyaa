@@ -9,13 +9,13 @@ class UglyNumber
         int n = sc.nextInt();
         if(ob.isUgly(n))
         {
-            System.out.println("The Number is An Ugly Number");
+            System.out.println(n+" is An Ugly Number");
         }
         else
         {
-            System.out.println("The Number is NOT An Ugly Number");
+            System.out.println(n+" is NOT An Ugly Number");
         }
-    }
+    }// Main Method
     boolean isUgly(int n)
     {
         int a[] = {2,3,5};int i=0;
@@ -38,5 +38,5 @@ class UglyNumber
         {
             return false;
         }
-    }
-}
+    }//isUgly Function
+}//class
