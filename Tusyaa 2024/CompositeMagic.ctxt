@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CompositeMagic
+comment1.params=
+comment1.target=void\ input()
+comment2.params=
+comment2.target=void\ main()
+comment3.params=
+comment3.target=void\ generateCompositeMagicNumber()
+comment4.params=n
+comment4.target=boolean\ isCompositeMagic(int)
+comment5.params=n
+comment5.target=boolean\ isMagic(int)
+comment6.params=n
+comment6.target=boolean\ isComposite(int)
+numComments=7
