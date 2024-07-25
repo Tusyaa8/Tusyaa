@@ -1,39 +1,54 @@
-import java.util.*;
+import java.util.Scanner;
 class CompositeMgaic
 {
+    int n,m;
+    void input()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter The Range");
+        System.out.println("N to M");
+        System.out.println("N");
+        n = sc.nextInt();
+        System.out.println("M");
+        m = sc.nextInt();
+    }//Input Funcion
     public static void main()
     {
         CompositeMgaic ob = new CompositeMgaic();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter A Number");
-        int n = sc.nextInt();
-        if(ob.isCompositeMagic(n))
-        {
-            System.out.println(n+" Is Composite Magic Number");
-        }
-        else
-        {
-            System.out.println(n+" Is NOT Composite Magic Number");
-        }
-    }
-    boolean isCompositeMagic(int n)
+        ob.input();
+        ob.generateComposteMagicNumber();
+    }//Main Function
+    void generateComposteMagicNumber()
     {
-        if(n>0)
-        {   
-            if(isMagic(n)&&isComposite(n))
+        int count =0;
+        for(int i=n;i<=m;i++)
+        {
+            if(isCompositeMagic(i))
             {
-                return true;
+                count++;
+                if(count==1)
+                {
+                    System.out.println("The Composite Magic Numbers Are");
+                }
+                System.out.println(i);
             }
-            else
-            {
-                return false;
-            }
+        }//loop
+        if(count==0)
+        {
+            System.out.println("There Are No Composite Magic Numbers Within The Given Range");
+        }
+    }//Generating
+    boolean isCompositeMagic(int n)
+    {   
+        if(isMagic(n)&&isComposite(n))
+        {
+            return true;
         }
         else
         {
             return false;
         }
-    }
+    }//BothCompositeMagic
     boolean isMagic(int n)
     {
         int sum =n;
@@ -56,7 +71,7 @@ class CompositeMgaic
         {
             return false;
         }
-    }
+    }//isMagic
     boolean isComposite(int n)
     {
         int count =0;
@@ -75,5 +90,5 @@ class CompositeMgaic
         {
             return false;
         }
-    }
-}
+    }//isComposite
+}//class

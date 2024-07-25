@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TwinPrime
+comment1.params=n
+comment1.target=boolean\ isPrime(int)
+comment2.params=
+comment2.target=void\ isTwinPrime()
+comment3.params=
+comment3.target=void\ main()
+comment4.params=
+comment4.target=void\ input()
+numComments=5

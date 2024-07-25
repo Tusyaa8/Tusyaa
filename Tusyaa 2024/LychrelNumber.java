@@ -10,7 +10,7 @@ class LychrelNumber
     {
         boolean isLychrel = true;;
         long sum=0;
-        for(long i =1;i<=100;i++)
+        for(long i =1;i<=this.m;i++)
         {
             sum =add(n,reverse(n));
             if(sum==reverse(sum))
@@ -25,38 +25,23 @@ class LychrelNumber
     void input()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter The Range");
-        System.out.println("From N to M");
-        System.out.println("N ");
+        System.out.println("Enter A Number ");
         n = sc.nextInt();
-        System.out.println("M ");
+        System.out.println("Enter No of Cycles ");
         m = sc.nextInt();
     }//Input Method
-    void generateLychrelNumber()
-    {
-        int count =0;
-        for(int i =n;i<=m;i++)
-        {
-            if(isLychrel(i))
-            {
-                count++;
-                if(count==1)
-                {
-                    System.out.println("Lychrel Numbers Are");
-                }
-                System.out.println(i);
-            }
-        }
-        if(count==0)
-        {
-            System.out.println("There Are No Lychrel Numbers Within The Given Range");
-        }
-    }//Generate Method
     public static void main()
     {
         LychrelNumber ob = new LychrelNumber();
         ob.input();
-        ob.generateLychrelNumber();
+        if(ob.isLychrel(ob.n))
+        {
+            System.out.println("The Number Is A Lychrel Number");
+        }
+        else
+        {
+            System.out.println("The Number Is NOT A Lychrel Number");
+        }
     }//Main Method
     long reverse(long n)
     {
