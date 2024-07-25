@@ -26,7 +26,7 @@ class XylemNumber
         {
             return false;
         }
-    }
+    }//XylemNumber
     public static void main()
     {
         Scanner sc = new Scanner(System.in);
@@ -40,5 +40,5 @@ class XylemNumber
         {
             System.out.println(n+" Is NOT A Xylem Number");
         }
-    }
-}
+    }//Main Method
+}//Class

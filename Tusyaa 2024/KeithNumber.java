@@ -29,7 +29,7 @@ class KeithNumber
             a[a.length-1]=0;
         }
         return sw;
-    }
+    }//isKeith
     public static void main()
     {
         Scanner sc = new Scanner(System.in);
@@ -44,5 +44,5 @@ class KeithNumber
         {
             System.out.println(n+" Is NOT A Keith Number");
         }
-    }
+    }//Main Method
 }

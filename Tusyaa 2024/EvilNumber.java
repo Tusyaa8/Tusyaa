@@ -14,7 +14,7 @@ class EvilNumber
         {
             System.out.println(n+" Is NOT An Evil Number");
         }
-    }
+    }//Main Method
     static boolean isEvil(int n)
     {
         int count =0;
@@ -28,5 +28,5 @@ class EvilNumber
             n/=2;
         }
         return (count%2==0&&count!=0);
-    }
-}
+    }//Is Evil
+}//class

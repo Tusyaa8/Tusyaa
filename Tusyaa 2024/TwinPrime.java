@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class TwinPrime
 {
-    int n,m;
+    int n,m;//date Members
     boolean isPrime(int n)
     {
         int count =0;
@@ -13,7 +13,7 @@ class TwinPrime
             }
         }
         return (count==2);
-    }
+    }//isPrime
     void isTwinPrime()
     {
         int count =0;
@@ -33,13 +33,13 @@ class TwinPrime
             }
         }
         System.out.println((count==0)?"There Are No Twin Prime Numbers Within the Given Range":"");
-    }
+    }//isTwinPrime
     public static void main()
     {
         TwinPrime ob = new TwinPrime();
         ob.input();
         ob.isTwinPrime();
-    }
+    }//Main Method
     void input()
     {
         Scanner sc = new Scanner(System.in);
@@ -49,5 +49,5 @@ class TwinPrime
         n = sc.nextInt();
         System.out.println("M");
         m = sc.nextInt();
-    }
-}
+    }//input
+}//class

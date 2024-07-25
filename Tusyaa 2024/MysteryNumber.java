@@ -15,7 +15,7 @@ class MysteryNumber
         {
             System.out.println(n+" Is NOT A Mystery Number");
         }
-    }
+    }//Main Method
     boolean isMystery(int n)
     {
         for(int i=1;i<=n;i++)
@@ -26,7 +26,7 @@ class MysteryNumber
             }
         }
         return false;
-    }
+    }//MysteryNumber
     int reverse(int n)
     {
         int rev =0;
@@ -37,5 +37,5 @@ class MysteryNumber
             n/=10;
         }
         return rev;
-    }
-}
+    }//ReverseNumber
+}//class
