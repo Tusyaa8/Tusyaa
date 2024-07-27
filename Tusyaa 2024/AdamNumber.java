@@ -1,13 +1,15 @@
 import java.util.*;
 class AdamNumber
 {
-    int n,m;
+    int n,m;//data members
     void input()
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter The Range ");
         System.out.println("N to M");
+        System.out.println("N");
         n =sc.nextInt();
+        System.out.println("M");
         m =sc.nextInt();
     }//input Method
     int reverse(int n)
@@ -58,5 +60,5 @@ class AdamNumber
         {
             return false;
         }
-    }
+    }//is Adam
 }//class
