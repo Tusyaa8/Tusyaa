@@ -18,14 +18,7 @@ class XylemNumber
             }
             n/=10;
         }
-        if(sumExtereme==sumMean)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return (sumExtereme==sumMean);
     }//XylemNumber
     public static void main()
     {
